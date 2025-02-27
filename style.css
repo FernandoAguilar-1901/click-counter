@@ -1,0 +1,90 @@
+html{
+    --bg-color: #222831;
+    --primary-color: #76ABAE ;
+    --secondary-color: #31363F ;
+    --hg-color: #EEEEEE;
+
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    background-color: var(--bg-color);
+}
+
+div.main-text{
+    text-align: center;
+    align-content: center;
+    width: 800px;
+    border: 3px solid var(--hg-color);
+    border-radius: 10px;
+    margin: 20px auto 20px auto;
+    color: var(--hg-color);
+    background-color: var(--primary-color);
+}
+
+div.main-text h1{
+    font-size: 60px;
+}
+
+div.site-contents{
+    margin: auto;
+    padding: 0 30px 0 30px;
+    width: 740px;
+    height: 500px;
+    text-align: justify;
+    align-content: center;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 3px solid var(--hg-color);
+    background-color: var(--secondary-color);
+    color: var(--hg-color);
+}
+
+div.site-contents h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+div.site-contents p#funny-message{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+}
+
+div.buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+div.buttons div button{
+    margin: 20px 5px 20px 5px;
+    font-size: 23px;
+    gap: 0;
+    width: 120px;
+    height: 70px;
+    border: 0px;
+    border-radius: 5px;
+    border: 3px solid var(--hg-color);
+    background-color: var(--secondary-color);
+    color: var(--hg-color);
+}
+
+div.buttons div button#count-button{
+    float: inline-end;
+}
+
+div.buttons div button#clear-button{
+    background-color: var(--secondary-color);
+    color: var(--hg-color);
+}
+
+div div button#count-button:hover{
+    background-color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div div button#clear-button:hover{
+    background-color: red;
+    color: var(--hg-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
