@@ -2,22 +2,39 @@
 <html lang="en">
 
 <head>
-    <title>Sample website</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <title>Click counter</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
 <body>
-    <h1>Hello There!</h1>
-    <h2>Welcome to the click counter</h2>
-    <p>
-        Click on the <b><i>Count</i></b> button to start counting
-        how many times you click on your mouse.
-    </p>
-    <p>
-        You can also set the counter back to 0 by clicking the 
-        <b><i>Reset</i></b> button.
-    </p>
-    <h2 id="text-count">0</h2>
-    <button id="count-button" type="button" onclick="count()">Count</button>
-    <button id="clear-text" type="button" onclick="restart()">Restart</button>
+    <div class="main-text">
+        <h1>Hello</h1>
+        <h2>Welcome to the click counter!! 🖱️</h2>
+    </div>
+
+    <div class="site-contents">
+        <p>
+            Click on the <b><i>Count</i></b> button to start counting
+            how many times you click on your mouse.
+        </p>
+        <p>
+            You can also set the counter back to <b>0</b> by clicking the
+            <b><i>Reset</i></b> button.
+        </p>
+
+            <h2>Your clicks:</h2>
+            <h2 id="text-count">0</h2>
+
+            <p id="funny-message" onclick="count()"></p>
+    </div>
+
+    <div class="buttons">
+        <div><button id="count-button" type="button" onclick="count()">Count</button></div>
+        <div><button id="clear-button" type="button" onclick="reset()">Reset</button></div>
+    </div>
+
     <script src="./counter.js"></script>
