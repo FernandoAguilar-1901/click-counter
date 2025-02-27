@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sample website</title>
+    <link rel="stylesheet" href="./style.css"/>
+
+
+<body>
+    <h1>Hello There!</h1>
+    <h2>Welcome to the click counter</h2>
+    <p>
+        Click on the <b><i>Count</i></b> button to start counting
+        how many times you click on your mouse.
+    </p>
+    <p>
+        You can also set the counter back to 0 by clicking the 
+        <b><i>Reset</i></b> button.
+    </p>
+    <h2 id="text-count">0</h2>
+    <button id="count-button" type="button" onclick="count()">Count</button>
+    <button id="clear-text" type="button" onclick="restart()">Restart</button>
+    <script src="./counter.js"></script>
