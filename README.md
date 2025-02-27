@@ -19,4 +19,4 @@ Feel free to give any feedback that you think may help this guide to be better f
     - 'assets' (folder)
     - 'index' html file.
     - 'style' css file.
-    - 'count' js file.
+    - 'counter' js file.
