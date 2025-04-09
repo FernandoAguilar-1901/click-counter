@@ -4,6 +4,7 @@ let funnyMessage = document.getElementById("funny-message");
 let countButton = document.getElementById("count-button");
 let clearButton = document.getElementById("clear-button");
 
+
 // Funcion para boton de conteo
 countButton.addEventListener("click", e => {
     setCounter++;
@@ -38,6 +39,8 @@ countButton.addEventListener("click", e => {
 
 });
 
+
+  
 // Funcion para boton de reseteo
 clearButton.addEventListener("click", e => {
     setCounter = 0;
