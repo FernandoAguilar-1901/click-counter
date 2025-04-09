@@ -4,38 +4,44 @@
 <head>
     <title>Click counter</title>
     <link rel="shortcut icon" href="./assets/images/mouse-clicker.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
+</head>
 
 <body>
-<div class="main-text">
-        <h1>Hello</h1>
-        <h2>Welcome to the click counter!! 🖱️</h2>
-    </div>
 
-    <div class="site-contents">
-        <p>
-            Click on the <b><i>Count</i></b> button to start counting
-            how many times you click on your mouse.
-        </p>
-        <p>
-            You can also set the counter back to <b>0</b> by clicking the
-            <b><i>Reset</i></b> button.
-        </p>
+    <div class="app">
+        <div class="main-text">
+            <h1>Hello</h1>
+            <h2>Welcome to the click counter!! 🖱️</h2>
+        </div>
+
+        <div class="site-contents">
+            <p>
+                Click on the <b><i>Count</i></b> button to start counting
+                how many times you click on your mouse.
+            </p>
+            <p>
+                You can also set the counter back to <b>0</b> by clicking the
+                <b><i>Reset</i></b> button.
+            </p>
 
             <h2>clicks:</h2>
             <h2 id="text-count">0</h2>
 
             <p id="funny-message"></p>
-    </div>
+        </div>
 
-    <div class="buttons">
-        <div><button id="count-button" type="button"> Count </button></div>
-        <div><button id="clear-button" type="button"> Reset </button></div>
+        <div class="buttons">
+            <div><button id="count-button" type="button"> Count </button></div>
+            <div><button id="clear-button" type="button"> Reset </button></div>
+        </div>
     </div>
+    <script src="./js/counter.js"></script>
+</body>
 
-    <script src="./counter.js"></script>
+</html>
