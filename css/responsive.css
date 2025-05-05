@@ -1,0 +1,47 @@
+@media (max-width: 26.938rem){
+    div.main-text{
+        height: 25rem;
+    }
+
+    div.main-text h1{
+        font-size: 7.43rem;
+        margin: 0;
+    }
+
+    div.main-text h2{
+        font-size: 2.724rem;
+        margin: 0;
+    }
+
+    div.site-contents{
+        height: 49.534rem;
+        font-size: 2.477rem;
+    }
+
+    div.site-contents h2{
+        font-size: 2.724rem;
+    }
+
+    div.site-contents p#funny-message{
+        font-size: 2.08rem;
+    }
+
+    div.buttons div button{
+        width: 16.099rem;
+        height: 6.192rem;
+        font-size: 2.724rem;
+    }
+
+    div div button#count-button{
+        background-color: green;
+        text-decoration: underline;
+        touch-action: manipulation;
+    }
+    
+    div.buttons div button#clear-button{
+        background-color: red;
+        text-decoration: underline;
+        touch-action: manipulation;
+    }
+    
+}
