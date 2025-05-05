@@ -9,44 +9,50 @@ html{
     background-color: var(--bg-color);
 }
 
+main.app{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
 div.main-text{
     text-align: center;
     align-content: center;
-    width: 800px;
-    border: 3px solid var(--hg-color);
-    border-radius: 10px;
-    margin: 20px auto 20px auto;
+    width: 50rem;
+    border: 0.188rem solid var(--hg-color);
+    border-radius: 0.625rem;
+    margin: 1.25rem auto 1.25rem auto;
     color: var(--hg-color);
     background-color: var(--primary-color);
 }
 
 div.main-text h1{
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 div.site-contents{
     margin: auto;
-    padding: 0 30px 0 30px;
-    width: 740px;
-    height: 500px;
+    padding: 0 1.875rem 0 1.875rem;
+    width: 46.25rem;
+    height: 31.25rem;
     text-align: justify;
     align-content: center;
-    font-size: 22px;
-    border-radius: 10px;
-    border: 3px solid var(--hg-color);
+    font-size: 1.375rem;
+    border-radius: 0.625rem;
+    border: 0.188rem solid var(--hg-color);
     background-color: var(--secondary-color);
     color: var(--hg-color);
 }
 
 div.site-contents h2{
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
 }
 
 div.site-contents p#funny-message{
     text-align: center;
     font-style: italic;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 div.buttons{
@@ -55,14 +61,14 @@ div.buttons{
 }
 
 div.buttons div button{
-    margin: 20px 5px 20px 5px;
-    font-size: 23px;
+    margin: 1.25rem 0.313rem 1.25rem 0.313rem;
+    font-size: 1.375rem;
     gap: 0;
-    width: 120px;
+    width: 11.25rem;
     height: 70px;
     border: 0px;
-    border-radius: 5px;
-    border: 3px solid var(--hg-color);
+    border-radius: 0.313rem;
+    border: 0.188rem solid var(--hg-color);
     background-color: var(--secondary-color);
     color: var(--hg-color);
 }
